@@ -17036,7 +17036,20 @@ label {
   }
   
 }
-@media (Max-width: 768px) {
+.flip {
+  display: none;
+  color: #FFFFFF;
+}
+.flipback i {
+  display: none;
+  color: #000000 !important;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    width: 150%;
+  }
   .container-fluid > div{
     padding: 0;
   }
@@ -17052,42 +17065,79 @@ label {
     left: -10%;
   }
   #p2 {
-    top: -10vh;
-    left: 75%;
+    display: none;
   }
   .img-fluid {
   width: 100%;  
-  }
-  .card-body {
-    text-align: center;
-  }
-  #d-title {
-    width: 100%;
-  }
-  #d-button {
-    width: 100%;
-  }
-  .about-img {
+}
+.card-body {
+  text-align: center;
+}
+#d-title {
+  width: 100%;
+}
+#d-button {
+  width: 100%;
+}
+
+.about-img {
   
-    display: none;
+  display: none;
+}
+.item {
+  width: 100%;
+  
+}
+.item h1{
+  font-size: 4rem;
+}
+.dark {
+  width: 100%;
+  padding: 0 3rem;
+}
+.dark .d-grid {
+  margin: 0 !important;
+}
+.dark .mt-9 {
+  margin: 1rem 0 0 0 !important;
+}
+
+.flip{
+  display: block;
+}
+.white {
+  display: none;
+  width: 95%;
+  margin: 20px;
+  transition: all .3s linear;
+}
+.flipback i {
+  display: block;
+}
+  form .row {
+    width: 95%;
+    margin: 0 2px;
   }
-  .item {
+  .contact .inputContainer {
+    width: 35%;
+  }
+  .contact .textContainer {
+    width: 95%;
+  }
+
+  .contact #Ssubject {
+    text-align: start;
     width: 100%;
-    
+    margin: 0;
   }
-  .item h1{
-    font-size: 4rem;
-  }
-  .dark {
+  .contact #Ssubject .dxp {
     width: 100%;
   }
-  .white {
-    display: none;
-  }
+  
   
   .link-container {
     display: inline-block;
-    width: 50%;
+    width: 40%;
   }
   .link-container:nth-child(4) {
     width: 30%;
@@ -17378,6 +17428,7 @@ h3 {
   box-shadow: 1px 5px 20px 0px #727272;
   transition: 0.3s ease, color 0.3s ease;
 }
+
 
 footer {
   background-color: whitesmoke;
