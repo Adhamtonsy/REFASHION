@@ -477,4 +477,15 @@ function visiable(T) {
 }
 
 
+function gotocontact() {
+    document.getElementById('Fcontact').style.display = 'none';
+    document.getElementById('Bcontact').style.display = 'block';
+    
+  }
+  function returncontact() {
+    document.getElementById('Bcontact').style.display = 'none';
+    document.getElementById('Fcontact').style.display = 'block';
+}
+
+
 
